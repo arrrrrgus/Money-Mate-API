@@ -35,8 +35,4 @@ export class RegisterDto {
   @IsNotEmpty()
   @Trim()
   lastName: string;
-
-  @IsString()
-  @IsNotEmpty()
-  nickName: string;
 }

@@ -472,6 +472,10 @@ export type IntFieldUpdateOperationsInput = {
   divide?: number
 }
 
+export type NullableStringFieldUpdateOperationsInput = {
+  set?: string | null
+}
+
 export type CategoryCreateNestedOneWithoutTransactionsInput = {
   create?: Prisma.XOR<Prisma.CategoryCreateWithoutTransactionsInput, Prisma.CategoryUncheckedCreateWithoutTransactionsInput>
   connectOrCreate?: Prisma.CategoryCreateOrConnectWithoutTransactionsInput
